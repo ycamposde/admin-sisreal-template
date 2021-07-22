@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Sidebar Menu  | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar open">
+    <div class="logo-details">
+      <!-- <i class='bx bxl-c-plus-plus icon'></i>
+      <div class="logo_name">Sisreal</div> -->
+      <div class="logo_name">
+        <img src="./Logo.png" />
+      </div>
+      <i class='bx bx-menu-alt-right' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#" class="active__menu">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+         <span class="tooltip">Dashboard</span>
+      </li>
+      <li>
+       <a href="#">
+        <i class='bx bxs-business'></i>
+         <span class="links_name">Empresas</span>
+       </a>
+       <span class="tooltip">Empresas</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bx-file' ></i>
+        <span class="links_name">Validación Ventas</span>
+       </a>
+       <span class="tooltip">Validación Ventas</span>
+     </li>
+     <li>
+       <a href="#">
+          <i class='bx bx-file' ></i>
+         <span class="links_name">Validación Compras</span>
+       </a>
+       <span class="tooltip">Validación Compras</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bx-user-plus' ></i>
+         <span class="links_name">Usuarios</span>
+       </a>
+       <span class="tooltip">Usuarios</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Configuración</span>
+       </a>
+       <span class="tooltip">Configuración</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Yerson Campos</div>
+             <div class="job">Super Admin</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Dashboard</div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
